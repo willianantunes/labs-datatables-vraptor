@@ -154,12 +154,17 @@ $.PSS.url = window.custom_root_url;
             "aButtons": [
                          {
 							"sExtends": "copy",
-							"mColumns": [1, 2, 3, 4, 5, 6]
+							"mColumns": [1, 2, 3]
                          },
                          {
  							"sExtends": "csv",
- 							"mColumns": [1, 2, 3, 4, 5, 6]
+ 							"mColumns": [1, 2, 3]
                          },
+                         {
+    							"sExtends": "pdf",
+    							"sPdfOrientation": "landscape",
+    							"mColumns": [1, 2, 3]
+                          },
                          "print"
                      ]            
         }
