@@ -1,0 +1,175 @@
+/* ------------------------------------- */
+/* ---------->>> Structure <<<---------- */
+/* ------------------------------------- */
+
+.standard-form
+{
+	font: 13px arial, verdana, helvetica, sans-serif;
+	display: block;
+	/*width: 100%;*/
+	width: 626px;
+	margin: 0 auto;	
+}
+
+.standard-form:after
+{
+	content: '.';
+	display:block;
+	clear:both;
+	visibility:hidden;
+	height:0;
+	overflow:hidden;
+}
+
+.standard-form .clear
+{
+	padding-top: 8px;
+}
+
+.standard-form
+{
+	font: 13px arial, verdana, helvetica, sans-serif;
+	/*width: 100%;*/
+	display: block;
+}
+
+.standard-form label, .standard-form input
+{
+	display: block;
+	float: left;
+	width: 345px;
+}
+
+.standard-form input[type=submit], .standard-form input[type=button]
+{
+	display: block;
+	float: none;
+	margin: 0 auto;
+	width: 80px;
+    background-color: #aee072;
+    border: 1px solid #c6e99c;
+    color: #000000;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.1);	
+}
+
+.standard-form input[type=submit] + input[type=button]
+{
+	margin-top: 5px;
+}
+
+.standard-form input[type=submit]:hover, .standard-form input[type=button]:hover
+{
+    background-color: #c6e99c;
+    border: 1px solid #aee072;
+    color: #000000;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.1);	
+}
+
+
+.standard-form input[type=text], .standard-form input[type=password], .standard-form select, .standard-form textarea
+{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #C0C0C0 #D9D9D9 #D9D9D9;
+    border-image: none;
+    border-radius: 1px 1px 1px 1px;
+    border-right: 1px solid #D9D9D9;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    height: 29px;
+    margin: 0;
+    padding: 0 8px;
+}
+
+.standard-form textarea
+{
+	font: 13px arial, verdana, helvetica, sans-serif;
+	width: 344px;
+	height: 100px;
+	resize: both;
+    padding: 5px;	
+}
+
+.standard-form select
+{
+    padding: 4px;	
+    width: 167px;
+    line-height: 1; 
+}
+
+.standard-form label
+{
+	padding-top: 5px;
+	text-align: right;
+	width: 184px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+
+.standard-form label[for=password]
+{
+	padding-top: 15px;
+}
+
+.standard-form br
+{
+	clear: left;
+}
+
+/* -------------------------------------- */
+/* ---------->>> DataTables <<<-----------*/
+/* -------------------------------------- */
+
+.row-action-delete
+{
+	background: url(../img/icon-delete-16px.png) no-repeat center center;
+    display: block;
+    height: 16px;
+    width: 36px;
+    float: left;
+}
+
+.row-action-delete:hover
+{
+	background: url(../img/icon-delete-16px-hover.png) no-repeat center center;
+}
+
+.row-action-edit
+{
+	background: url(../img/icon-edit-16px.png) no-repeat center center;
+    display: block;
+    height: 16px;
+    width: 37px;
+    float: left;
+}
+
+.row-action-edit:hover
+{
+	background: url(../img/icon-edit-16px-hover.png) no-repeat center center;
+}
+
+table.td-small-font-size td
+{
+	font-size: 13px;
+	text-align: center;
+}
+
+table.td-small-font-size p
+{
+	padding-top: 0px;
+}
+
+/* ------------------------------------- */
+/* ---------->>> jQuery UI <<<-----------*/
+/* ------------------------------------- */
+
+ul.ui-autocomplete.ui-widget
+{
+	font-size: 12px;
+}
+
+#___dialogConfirmation
+{
+	display: none;
+}

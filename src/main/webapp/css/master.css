@@ -1,0 +1,10 @@
+@import url("reset.css");
+
+@import url("global.css");
+@import url("structure.css");
+
+@import url("js-jquery-ui/jquery-ui.min.css");
+@import url("js-data-tables/css/jquery.dataTables.css");
+@import url("js-table-tools/css/dataTables.tableTools.min.css");
+@import url("js-validation/validationEngine.jquery.css");
+@import url("js-tooltipster/tooltipster.css");

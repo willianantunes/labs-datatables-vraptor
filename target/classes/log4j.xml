@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "http://logging.apache.org/log4j/1.2/apidocs/org/apache/log4j/xml/doc-files/log4j.dtd">
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+    <appender name="main" class="org.apache.log4j.ConsoleAppender">
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{dd MMM HH:mm:ss,SSS} %5p [%-20c{1}] %m%n"/>
+        </layout>
+    </appender>   
+    
+	<!-- Application Loggers -->	
+	<logger name="br.com.willianantunes">
+		<level value="ALL" />
+	</logger>
+	<!-- end of Application Loggers -->	
+
+	<!-- 3rd Party Loggers -->
+    <logger name="br.com.caelum.vraptor">
+        <level value="INFO"/>
+    </logger>
+    
+    <logger name="br.com.caelum.vraptor.hibernate">
+    	<level value="INFO"/>
+    </logger>
+    <!-- <end of 3rd Party Loggers -->
+	
+	<root>
+		<level value="INFO"/>
+		<appender-ref ref="main"/> 
+	</root>
+</log4j:configuration>

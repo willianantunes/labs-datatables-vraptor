@@ -1,0 +1,27 @@
+<%@ page language="java" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+
+<script type="text/javascript">
+	var custom_root_url = "<c:url value="/"/>"; 
+	var custom_config_date_format_jquery = "<fmt:message key="config.date_format_jquery"/>";
+	var custom_config_language = "<fmt:message key="config.language"/>";
+	var custom_message_action_completed_successfully = "<fmt:message key="message.action_completed_successfully"/>";
+	var custom_message_yes = "<fmt:message key="message.yes"/>";
+	var custom_message_no = "<fmt:message key="message.no"/>";
+	var custom_error_occured_during_process = "<fmt:message key="error.occured_during_process"/>";
+	var custom_message_delete = "<fmt:message key="message.delete"/>";
+	var custom_message_edit = "<fmt:message key="message.edit"/>";
+	var custom_message_information = "<fmt:message key="message.info"/>";
+	var custom_message_activate_deactivate = "<fmt:message key="message.activate_deactivate"/>";
+	// DataTables
+	var custom_dataTables_search_name = "<fmt:message key="message.dataTable.search.name"/>";
+</script>
+<script src="<c:url value="/js/jquery-2.1.1.min.js"/>" type="text/javascript"></script>
+<script src="<c:url value="/js/data-tables/jquery.dataTables.min.js"/>" type="text/javascript"></script>
+<script src="<c:url value="/js/table-tools/dataTables.tableTools.min.js"/>" type="text/javascript"></script>
+<script src="<c:url value="/js/jquery-ui.min.js"/>" type="text/javascript"></script> 
+<script src="<c:url value="/js/validation/languages/"/>jquery.validationEngine-<fmt:message key="config.language"/>.js" type="text/javascript" charset="UTF-8"></script>
+<script src="<c:url value="/js/validation/jquery.validationEngine.js"/>" type="text/javascript"></script>
+<script src="<c:url value="/js/tooltipster/jquery.tooltipster.min.js"/>" type="text/javascript"></script>
+<script src="<c:url value="/js/scripts.js"/>" type="text/javascript"></script> 

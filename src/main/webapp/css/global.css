@@ -1,0 +1,344 @@
+/* -----------------------------------*/
+/* ---------->>> Header <<<-----------*/
+/* -----------------------------------*/
+
+noscript
+{
+	font-size: 20px;
+	text-align: center;	
+	color: white;
+}
+
+noscript h1
+{
+	padding: 20px 0px 20px 0px;
+}
+
+div.header
+{
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    background: #a6a6a6;
+}
+
+div.header-content
+{
+	padding-top: 10px;
+    margin: 0 auto;
+    position: relative;
+    width: 960px;
+    height: 50px;
+}
+
+div.header-content:after
+{
+	content: '.';
+	display:block;
+	clear:both;
+	visibility:hidden;
+	height:0;
+	overflow:hidden;
+}
+
+div.panel-left
+{
+	float: left;
+}
+
+div.panel-left h1
+{
+	font-size: 36px;
+}
+
+div.user-information
+{
+	font: 400 11px 'Open Sans','Arial',sans-serif;
+	float: right;
+}
+
+div.user-information p
+{
+	color: white;
+	text-align: right;
+}
+
+div.user-information p a
+{
+	color: black;
+}
+
+/* ----------------------------------*/
+/* ---------->>> Torso <<<-----------*/
+/* ----------------------------------*/
+
+div.torso
+{
+	text-align: left;
+	position: relative;
+	width: 100%;
+    margin-bottom: 30px;
+}
+
+div.torso-content
+{
+	margin: 0 auto;
+	position: relative;
+	width: 670px;
+	background: #2a3f3f;
+	padding: 5px;
+}
+
+div.torso-content:after
+{
+	content: '.';
+	display:block;
+	clear:both;
+	visibility:hidden;
+	height:0;
+	overflow:hidden;
+}
+
+div.torso-content a
+{
+	color: #88c539;
+}
+
+div.torso-content h1
+{
+	font: 60px 'Open Sans','Arial',sans-serif;
+	color: #88c539;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+div.torso-content h2
+{
+	font-size: 19px;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	border-bottom: 1px solid #000000;
+}
+
+div.torso-content p
+{
+	padding-top: 10px;
+	font-size: 13px;
+	text-align: justify;
+	line-height: 17px;
+}
+
+
+div.header + div.torso > div.torso-content
+{
+	margin: 0 auto;
+	position: relative;
+	width: 960px;
+	background: #f1f1f1;
+	padding: 5px;
+}
+
+div.header + div.torso h1
+{
+	font: 30px 'Open Sans','Arial',sans-serif;
+	color: #2A3136;
+	border-bottom: 1px solid #000000;
+	margin-bottom: 20px;
+}
+
+/* -----------------------------------*/
+/* ---------->>> Footer <<<-----------*/
+/* -----------------------------------*/
+
+div.footer
+{
+	border-top: 4px solid #90a0a0;
+	text-align: left;
+	position: relative;
+	width: 100%;
+}
+
+div.footer-content
+{
+	margin: 0 auto;
+	position: relative;
+	width: 960px;
+	color: #2a3136;
+}
+
+div.footer-content:after
+{
+	content: '.';
+	display:block;
+	clear:both;
+	visibility:hidden;
+	height:0;
+	overflow:hidden;
+}
+
+div.footer-content div.copyright 
+{
+	padding: 30px 0px 30px 0px;
+	font: 400 11px 'Open Sans','Arial',sans-serif;
+	text-align: center;
+}
+
+/* ---------------------------------------*/
+/* ---------->>> Login page <<<-----------*/
+/* ---------------------------------------*/
+
+div.torso-content div.painel-login
+{
+	padding: 40px;
+	border: 3px solid gray;
+	background: none repeat scroll 0 0 black;
+	font-size: 12px;
+}
+
+div.torso-content div.painel-login:after
+{
+	content: '.';
+	display:block;
+	clear:both;
+	visibility:hidden;
+	height:0;
+	overflow:hidden;
+}
+
+div.torso-content div.painel-login div.logotype-login
+{
+	padding-top: 0px;
+    float: none;
+	background: none;
+	border-right: 0px;
+	padding-top: 10px;
+}
+
+div.torso-content div.painel-login div.logotype-login h1 
+{
+	border: 0px;   
+}
+
+div.torso-content div.painel-login div.logotype-login h1 a 
+{
+	margin: 0 auto;    
+}
+
+div.torso-content div.painel-login p 
+{
+	text-align: center; 
+}
+
+div.torso-content div.painel-login p a
+{
+	color: #AFDB51;
+}
+
+div.torso-content div.painel-login p a:HOVER
+{
+	color: #FFFFFF;
+}
+
+#___frmLogin
+{
+	width: 342px;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 15px;
+}
+
+#___frmLogin fieldset
+{
+	padding-bottom: 20px;
+}
+
+#___frmLogin fieldset legend
+{
+	padding: 20px 0px 20px 0px;
+	text-align: center;
+	width: 100%;
+	font-size: 20px;
+	color: white;
+}
+
+#___frmLogin label
+{
+	color: white;
+}
+	
+#___frmLogin label, #___frmLogin input
+{
+	display: block;
+	float: left;
+	width: 345px;
+}
+
+#___frmLogin input[type=submit]
+{
+	float: none;
+	margin: 0 auto;
+	width: 80px;
+    background-color: black;
+    border: 1px solid white;
+    color: #FFFFFF;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.1);	
+}
+
+#___frmLogin input[type=submit]:HOVER
+{
+    background-color: gray;
+    color: #FFFFFF;	
+}
+
+#___frmLogin input[type=text], #___frmLogin input[type=password]
+{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #C0C0C0 #D9D9D9 #D9D9D9;
+    border-image: none;
+    border-radius: 1px 1px 1px 1px;
+    border-right: 1px solid #D9D9D9;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    height: 29px;
+    margin: 0;
+    padding: 0 8px;
+}
+
+#___frmLogin label
+{
+	padding-top: 5px;
+	text-align: left;
+	width: 132px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+
+#___frmLogin label[for=password]
+{
+	padding-top: 15px;
+}
+
+#___frmLogin br
+{
+	clear: left;
+}
+
+/* ---------------------------------------*/
+/* ---------->>> Error page <<<-----------*/
+/* ---------------------------------------*/
+
+div.torso-content h1.errorCodeTitle
+{
+	font-size: 30px;
+	color: #FFFFFF;
+	text-align: center;
+	border: 0px;
+}
+
+div.torso-content p.errorCodeMessage
+{
+	font-size: 20px;
+	color: #FFFFFF;
+	text-align: center;
+}
