@@ -192,7 +192,7 @@ public class UsersController extends CommonController
 		userDt.bakeIt(
 				users, // data
 				totalRecords, // recordsTotal
-				numberOf == 0? totalRecords : numberOf, // recordsFiltered
+				numberOf, // recordsFiltered
 				consolidated.getDraw() // draw
 				);
 		
