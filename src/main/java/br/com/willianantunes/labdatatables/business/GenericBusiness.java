@@ -119,7 +119,7 @@ public class GenericBusiness<T> implements GenericRepository<T>
 	public Long numberOfMatches(String column, String value)
 	{
 		return (Long) session.createCriteria(classType).
-			add(Restrictions.eq(column, value)).
+			add(Restrictions.ilike(column, value, MatchMode.ANYWHERE)).
 			setProjection(Projections.rowCount()).uniqueResult();
 	}
 	
